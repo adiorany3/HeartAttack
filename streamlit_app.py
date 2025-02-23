@@ -5,6 +5,12 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 import datetime
 
+# Set page config with a title and favicon
+st.set_page_config(
+    page_title="Heart Attack Prediction App",
+    page_icon=":heart:",
+)
+
 # Load the trained model and scaler
 model_path = 'model.pkl'
 scaler_path = 'scaler.pkl'
