@@ -65,7 +65,7 @@ current_year = datetime.datetime.now().year
 # Footer
 st.markdown(f"""
 <div style="text-align: center; padding-top: 20px;">
-    © {current_year} Developed by: Galuh Adi Insani. All rights reserved.
+    © {current_year} Developed by: Galuh Adi Insani with :heart: . All rights reserved.
 </div>
 """, unsafe_allow_html=True)
 
