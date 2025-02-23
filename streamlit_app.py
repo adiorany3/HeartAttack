@@ -6,8 +6,8 @@ import joblib
 import datetime
 
 # Load the trained model and scaler
-model_path = '/Users/macbookpro/Documents/Backup/OneDriveBack/Python Script/HeartAttack/heart_attack_streamlit_app/model.pkl'
-scaler_path = '/Users/macbookpro/Documents/Backup/OneDriveBack/Python Script/HeartAttack/heart_attack_streamlit_app/scaler.pkl'
+model_path = 'model.pkl'
+scaler_path = 'scaler.pkl'
 model = joblib.load(model_path)
 scaler = joblib.load(scaler_path)
 
