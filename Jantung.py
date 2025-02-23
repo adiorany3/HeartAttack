@@ -5,6 +5,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 import joblib
 from sklearn.impute import SimpleImputer
+import sys
+
+print(sys.executable)
 
 # Load dataset
 data = pd.read_csv('/Users/macbookpro/Documents/Backup/OneDriveBack/Python Script/HeartAttack/heart_attack_streamlit_app/heart_attack_dataset.csv')
