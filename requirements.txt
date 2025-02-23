@@ -1,4 +1,4 @@
-pip install --upgrade pip
+pip==25.0.1
 attr==0.3.2
 colorama==0.4.6
 ConfigParser==7.1.0
