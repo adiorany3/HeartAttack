@@ -43,3 +43,5 @@ The heart attack prediction model uses the following features:
 - Stress Level
 
 The model outputs the predicted outcome and provides evaluation metrics such as accuracy and a classification report.
+
+Created by : Galuh Adi Insani
